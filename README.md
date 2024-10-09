@@ -1,6 +1,16 @@
-Instruções para execução do projeto
+## Instruções para execução do projeto
 
-composer install && composer update
-npm install && npm update
-php artisan migrate 
-php artisan db:seed --class=TestTableSeeder
+### Preparação do ambiente
+
+`composer install && composer update`
+
+`npm install && npm update`
+
+`php artisan migrate `
+
+`php artisan db:seed --class=TestTableSeeder`
+
+### Execução do sistema
+`php artisan serve`
+
+`npm run dev`
